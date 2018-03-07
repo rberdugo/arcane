@@ -17,10 +17,10 @@ INSTALLATION DE L'ENVIRONNEMENT :
   1) Sur bash : pip install flask flask-jsonpify flask-sqlalchemy flask-restful
   2) Créer/Choisir un dossier en local "d" dans lequel cloner le git 
   3) Sur bash dans ce dossier : 
-       a) virtualenv venv
-       b) export FLASK_APP=yourapplication
-       c) export FLASK_DEBUG=true
-       d) pip install -e .
-       e) source venv/bin/activate 
-       f) flask run
+        virtualenv venv
+        export FLASK_APP=yourapplication
+        export FLASK_DEBUG=true
+        pip install -e .
+        source venv/bin/activate 
+        flask run
   4) Changer de console (si nécessaire) et ouvrir le dossier example.py et faire les tests 
